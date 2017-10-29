@@ -267,7 +267,8 @@
 
 
                 }
-            results.innerText =JSON.stringify(getTourFittset(population),null,2);
+            results.innerText ="The fittest path in the last generation is "+"\n";   
+            results.innerText +=JSON.stringify(getTourFittset(population),null,2);
             result.appendChild(results);
   
             }
